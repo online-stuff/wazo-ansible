@@ -20,8 +20,8 @@ database
 engine-api
 
 # Uncomment the 2 following lines if you want to deploy wazo-ui too:
-# [uc-ui:children]
-# uc-engine-host
+[uc-ui:children]
+uc-engine-host
 
 [uc-engine:vars]
 # Variables are defined in ../roles/wazo_vars/defaults/main.yml
