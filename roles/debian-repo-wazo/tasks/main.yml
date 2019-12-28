@@ -9,7 +9,7 @@
 - name: Add Wazo distribution key
   apt_key:
     url: https://deb.b5.pm/sparrow.key
-    id: 59FBD8864DD7ACCB7900122BE6C36476FB87ED42
+    id: E61CAE8DC859F6CBCB74AFBA7C2FA32DA9C16D93
     state: present
 
 - name: Gather packages facts
