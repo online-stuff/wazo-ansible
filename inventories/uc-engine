@@ -20,17 +20,16 @@ b2bua
 database
 engine-api
 
-# Uncomment the 2 following lines if you want to deploy wazo-ui too:
 [uc-ui:children]
 uc-engine-host
 
 [uc-engine:vars]
 # Variables are defined in ../roles/wazo-vars/defaults/main.yml
 
-# Uncomment the 2 following lines to install the stable version (default is
-# development version)
 wazo_distribution = sparrow
 wazo_distribution_upgrade = sparrow
+
+tenant_name = sparrow
 
 # PostgreSQL settings
 # postgresql_port = 5432
