@@ -3,7 +3,6 @@
   # Some machines have chrony installed
   apt:
     name:
-      - ntp
       - postfix
     state: present
 
