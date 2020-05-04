@@ -1,5 +1,5 @@
 ---
-- name: Install the ntp and postfix daemons
+- name: Install the postfix daemons
   # Some machines have chrony installed
   apt:
     name:
